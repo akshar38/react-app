@@ -1,4 +1,4 @@
-cd /app
+cd /react-app
 
 # install node and npm
 apt-get install curl
