@@ -1,4 +1,4 @@
-cd /react-app
+cd /react-js
 
 # install dependencies
 npm install
