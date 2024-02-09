@@ -1,5 +1,11 @@
-#!/bin/bash
 set -e
 
-containerid=$(sudo docker ps | awk 'NR>1 '{ print $1 }' /etc/passwd)
-docker rm -f $containerid
+# Get the container ID running on port 3000
+containerid=$(docker ps -q)
+
+# Remove the container
+if [ -n "$containerid" ]; then
+    docker rm -f "$containerid"
+else
+    echo "No container running"
+fi
