@@ -7,5 +7,3 @@ COPY . /react-js
 RUN npm run build
 EXPOSE ${PORT}
 CMD ["npm", "start"]
-
-
