@@ -1,7 +1,7 @@
 set -e
 
 # Get the container ID running on port 3000
-containerid=$(docker ps -q)
+containerid=$(sudo docker ps -q)
 
 # Remove the container
 if [ -n "$containerid" ]; then
