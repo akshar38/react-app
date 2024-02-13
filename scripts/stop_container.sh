@@ -6,8 +6,9 @@ containerid=$(sudo docker ps -q)
 imageid=$(sudo docker images -q)
 
 if [ -n "$containerid" ]; then
-    sudo docker rmi -f "$imageid"
     sudo docker rm -f "$containerid"
+    sudo docker rmi -f "$imageid"
+    
 else
     echo "No container running"
 fi
