@@ -15,7 +15,7 @@ function App() {
           target="_blank" 
           rel="noopener noreferrer"
         >
-        React-js ci cd pipeline app 
+        React-js pipeline app 
         </a>
       </header>
     </div>
