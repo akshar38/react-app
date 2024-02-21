@@ -17,9 +17,7 @@ function App() {
         >
           React-js ci cd pipeline
         </a>
-
       </header>
-
     </div>
 
   );
