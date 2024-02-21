@@ -17,11 +17,7 @@ function App() {
         >
           React-js ci cd pipeline
         </a>
-        <div>
-          < Button theme="blue" href="https://reactjs.org">
-            React Button
-          </Button>
-        </div>
+
       </header>
 
     </div>
