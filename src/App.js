@@ -1,11 +1,13 @@
 import logo from "./logo.svg";
 import "./App.css";
+import Count from "./counter";
 
 function App() {
   return (
 
     <div className="App">
-      <header className="App-header">
+      <Count />
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -18,7 +20,7 @@ function App() {
         >
           React-js ci cd pipeline
         </a>
-      </header>
+      </header> */}
     </div>
   );
 }
