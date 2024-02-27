@@ -4,7 +4,6 @@ import Count from "./counter";
 
 function App() {
   return (
-
     <div className="App">
       <Count />
       {/* <header className="App-header">
