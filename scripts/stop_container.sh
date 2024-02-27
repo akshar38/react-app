@@ -8,7 +8,7 @@ else
         echo "No images found"
 fi
 if [ -n "$containerid" ]; then
-    # Get the container ID running on port 3000
+    
     sudo docker rm -f $(sudo docker ps -a -q)
 else 
     echo "No container running"
