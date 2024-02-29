@@ -12,7 +12,6 @@ const Count = () => {
                 <button onClick={() => setCounter(counter + 1)}>Increase</button>
             </div>
         </div>
-
     )
 }
 export default Count
